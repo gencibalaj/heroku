@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Help</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='/views/style.css'> -->
+</head>
+
+<body>
+    <h2 id="header" style="color:red; opacity: 1.0; align-items: center;">HELLP</h2>
+
+
+
+
+    <script>
+        timeout = setInterval(test, 1000*60*60)
+        let header = document.getElementById("header")
+
+        function test() {
+            if (header.style.opacity == 0) {
+                header.style.opacity = 1.0
+            }
+            header.style.opacity -= 0.1;
+            // console.log('hello')
+        }
+    //    const header = document.getElementsByClassName('header')
+    </script>
+</body>
+
+</html>
+
+<!-- src='/views/main.js' -->
